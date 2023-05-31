@@ -1,0 +1,698 @@
+/* Whole CSS body styles */
+
+body{
+    background-color: #f8f9fa;
+    font-family: 'Josefin Sans',  Helvetica, sans-serif;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+.content-section{
+    padding: 1rem;
+    align-items: start;
+}
+
+.text-white{
+    text-decoration: none;
+}
+
+#navbar-set{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.dropdown-menu{
+    border-radius: 0;
+}
+
+.navbar-toggler{
+    border-radius: 0;
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
+.btn-outline-light{
+    margin-bottom: 1rem;
+}
+
+.tint{
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+.col{
+    margin-bottom: 1rem;
+}
+
+.row{
+    margin: 1rem;
+    padding: 0;
+}
+
+.container{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container-fluid{
+    position: relative;
+}
+
+/* Social Media Icons */
+
+.socials{
+    text-decoration: none;
+    color: white;
+}
+
+.socials :hover {
+    text-decoration: none;
+    color: grey;
+}
+
+/* HR styles and others */
+
+hr{
+    margin: 3rem;
+}
+
+#dark-line{
+    margin: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.btn-success{
+    background-color: #85bf5d;
+    outline: #85bf5d, solid, 10px;
+    width: 100px;
+    border-radius: 0%;
+}
+
+.btn-success:hover{
+    background-color: white;
+    color: #85bf5d;
+    width: 100px;
+    border-radius: 0%;
+    outline:#85bf5d, solid, 10px;
+}
+
+#my-btn{
+    float: right;
+    margin: 1rem;
+}
+
+.btn{
+    border-radius: 0;
+ }
+ 
+ .btn-success{
+     border: #85bf5d;
+ }
+
+ /* Nav Link Between Pic Home Page */
+
+ .nav-link-1{
+    color: #85bf5d;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Home page styles */
+
+.home{
+    background-image: url(Rural-solar-renewafrica.biz_.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+#home-text{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20%;
+}
+
+.topic{
+    color: white;
+}
+
+.home-paragraph{
+    color: white;
+}
+
+.home-box{
+    width: auto;
+    height: auto;
+    background-color: #85bf5d;
+    padding: 1rem;
+}
+
+.home-2{
+    background-image: url(chiela.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.home-3{
+    background-image: url(reactor.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    position: relative;
+}
+
+/* Our Vision */
+
+.vision{
+    background-image: url(ourvis.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.page-topics{
+    padding-left: 1rem;
+}
+
+.vision-text-box{
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    padding: 1.5rem;
+}
+
+.vision-text{
+    background-color: #85bf5d;
+    color: white;
+    display: block;
+    padding: 0.5rem;
+}
+
+/* Our Mission + Goals and Objectives*/
+
+.paragraph{
+    /* padding-left: 50px; */
+    font-size: 1.2em;
+    padding-bottom: 1.25rem;
+}
+
+/* Guiding Principles */
+
+.para, .h4c{
+    background-color: #85bf5d;
+    padding: 0.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/* Why Green Teams */
+
+.whyGT{
+    background-image: url(why_title.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 0;
+    position: relative;
+}
+
+.inset-cont{
+    position: relative;
+    margin-bottom: 20px;
+} 
+
+ .inset-text{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 20px;
+    font-weight: 500;  
+}
+
+.inset-text:hover{
+    color:#85bf5d;
+}
+
+/* Social Entrepreneurship Actions */
+
+.social-actions{
+    background-image: url(soc.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.social-topic{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+    background-color: #85bf5d;
+    margin-bottom: 0;
+    margin-left: 1.5rem;
+    margin-right: 3rem;
+}
+
+.social-grid{
+    position: absolute;
+    bottom: 10%;
+}
+
+.social-text-box-cont{
+    background-color: #e4e4e4;
+    position: relative;
+    padding: 1rem;
+}
+
+.social-text-box{
+    background-color: #e4e4e4;
+
+}
+
+.activities{
+    background-color: #85bf5d;
+    padding: 2%;
+}
+
+.soa-pic{
+    margin-bottom: 1rem;
+}
+
+/* Green Entreprise Support */
+
+.ges-top{
+    background-image: url(GES.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.ges-topic{
+    text-align: left;
+    position: absolute;
+    top: 0.5rem;
+    left: 2rem;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    background-color: #85bf5d;
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* Green Climate Action Program */
+
+.gcap{
+    background-image: url(Ugandan_fishing_boats.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.gcap-grey{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.grey-box-text-2{
+    background-color:#858585;
+    padding: 0.5rem;
+    color: white;
+}
+
+.grey-box-text-2:hover{
+    background-color: #85bf5d;
+    padding: 0.5rem;
+}
+
+/* Social Entrepreneurship Opportunity */
+
+.soc-e-op{
+    background-image: url(soc-e-op.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    position: relative;
+}
+
+#soc-e-op-green-cont{
+    background-color: #85bf5d;
+    padding: 1rem;
+}
+
+.social-text-box-cont-green{
+    background-color: #85bf5d;
+    position: relative;
+    padding: 1rem;
+}
+
+.social-text-box-green{
+    background-color: #85bf5d;
+    color: white;
+
+}
+
+/* Green Trees Solutions */
+
+.GTSolutions{
+    background-image: url(trees.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.my-donate-btn{
+    margin: 1rem;
+    float: right;
+}
+
+/* STYLES END */
+
+
+
+/* .battery{
+    background-color: #85bf5d;
+} */
+
+/* .main-h1{
+    color: white;
+    font-size: 1 em;
+}
+
+.main-h2{
+    color: white;
+    font-size: 1 em;
+} */
+
+/* .page-text{
+    color: white;
+    font-size: 1 em;
+}
+
+.page-text-1{
+    color: black;
+    font-size: 1 em;
+} */
+
+/* h5{
+    color: #85bf5d;
+    font-size: 1 em;
+} */
+
+
+/* .green-box{
+    background-color: #85bf5d;
+    padding: 10px;
+}
+
+.green-box-2{
+    margin-top: 200px;
+    background-color: #85bf5d;
+    padding: 10px;
+} */
+
+/* .page-text-2{
+    color: white;
+    font-size: 1 em;
+} */
+
+/* .my-container{
+    margin-bottom: 100px;
+} */
+
+/* .learn-1{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 1.2em;
+    border-radius: 1px;
+    /* margin-top: 380px;
+    margin-left: 50px;
+}
+
+.learn-2{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 1.2em;
+    border-radius: 1px;
+    margin-top: 380px;
+    margin-left: 50px;
+} */
+
+/* .arrow{
+    color: black;
+    width: 45px;
+    height: 25px;
+} */
+
+/* .para-2{
+    background-color: #e4e4e4;
+    padding: 1rem;
+    margin-bottom: 0;
+} */
+
+/* .my-container-soc{
+    position: relative;
+} */
+
+/* .soa-topic{
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    left: 0.5rem;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    background-color: #85bf5d;
+    font-size: 1rem;
+} */
+
+/* .grey-box{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    font-weight: 500;
+} */
+
+/* .grey-box-2{
+    text-align: left;
+    position: absolute;
+    color: white;
+    margin: auto;
+    text-decoration: none;
+    font-weight: 300;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
+
+/* .grey-box-text{
+    background-color: #85bf5d; 
+    padding: 0.5rem;
+} */
+
+/* .learn-topic{
+    background-color: #85bf5d;
+    padding: 1rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+} */
+
+/* .post{
+    position: absolute;
+}
+
+.my-col{
+    margin-bottom: 1rem;
+} */
+
+/* .see-more{
+    color: #85bf5d;
+} */
+
+/* .large-box{
+    font-size: larger;
+} */
+
+
+/* STYLES END */
+
+
+
+/* SOCIAL OPPORTUNITIES CAROUSEL */
+
+.carousel {
+    height: 600px;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 500px 100px;
+    grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .card-body{
+    background-color: #85bf5d;
+  }
+  
+  main#carousel {
+    grid-row: 1 / 2;
+    grid-column: 1 / 8;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    perspective: 600px;
+    --items: 5;
+    --middle: 3;
+    --position: 1;
+    pointer-events: none;
+  }
+  
+  div.item {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: coral;
+    --r: calc(var(--position) - var(--offset));
+    --abs: max(calc(var(--r) * -1), var(--r));
+    transition: all 0.25s linear;
+    transform: rotateY(calc(-10deg * var(--r)))
+      translateX(calc(-300px * var(--r)));
+    z-index: calc((var(--position) - var(--abs)));
+  }
+  
+  div.item:nth-of-type(1) {
+    --offset: 1;
+    background-color: #85bf5d;;
+  }
+  div.item:nth-of-type(2) {
+    --offset: 2;
+    background-color: #85bf5d;;
+  }
+  div.item:nth-of-type(3) {
+    --offset: 3;
+    background-color: #85bf5d;;
+  }
+  div.item:nth-of-type(4) {
+    --offset: 4;
+    background-color: #85bf5d;;
+  }
+  div.item:nth-of-type(5) {
+    --offset: 5;
+    background-color: #85bf5d;;
+  }
+  
+  input:nth-of-type(1) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+  input:nth-of-type(1):checked ~ main#carousel {
+    --position: 1;
+  }
+  
+  input:nth-of-type(2) {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
+  input:nth-of-type(2):checked ~ main#carousel {
+    --position: 2;
+  }
+  
+  input:nth-of-type(3) {
+    grid-column: 4 /5;
+    grid-row: 2 / 3;
+  }
+  input:nth-of-type(3):checked ~ main#carousel {
+    --position: 3;
+  }
+  
+  input:nth-of-type(4) {
+    grid-column: 5 / 6;
+    grid-row: 2 / 3;
+  }
+  input:nth-of-type(4):checked ~ main#carousel {
+    --position: 4;
+  }
+  
+  input:nth-of-type(5) {
+    grid-column: 6 / 7;
+    grid-row: 2 / 3;
+  }
+  input:nth-of-type(5):checked ~ main#carousel {
+    --position: 5;
+  }
+
+/* SOCIAL OPPORTUNITIES CAROUSEL END */
